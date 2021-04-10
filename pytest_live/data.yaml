@@ -1,0 +1,63 @@
+#[(1, 1, 2), (100, 100, 200)]
+add_int:
+  datas:
+    - - 1
+      - 1
+      - 2
+    - [100, 100, 200]
+
+add_float:
+  datas:
+      - [0.1, 0.1, 0.2]
+      - [0.1, 0.2, 0.3]
+  ids:
+    - 'float1'
+    - 'float2'
+
+add_navigate:
+  datas:
+    - [-1, -2, -3]
+    - [-1 ,1, 0]
+  ids:
+    - 'navigate1'
+    - 'navigate2'
+
+div_notzero:
+  datas:
+    - [1, 2, 0.5]
+    - [9, 3, 3]
+
+div_endless:
+  datas:
+    - [6, 9, 0.67]
+
+div_zero:
+  datas:
+    - [2, 0, 0]
+
+minus_int:
+  datas:
+    - [2, 1, 1]
+
+minus_float:
+  datas:
+    - [0.4, 0.1, 0.3]
+
+multi_int:
+  datas:
+    - [1, 3, 3]
+    - [2, 2, 4]
+
+multi_float:
+  datas:
+    - [2, 0.3, 0.6]
+    - [1.5, 1.5, 2.25]
+
+multi_navigate:
+  datas:
+    - [ -1, -2, 2 ]
+    - [ -1 ,1, -1 ]
+
+multi_zero:
+  datas:
+    - [ -1, 0, 0]
