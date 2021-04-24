@@ -24,4 +24,4 @@ class EditMemberPage(BasePage):
             print("保存按钮不可点击")
         from test_appium.pages.add_member_page import AddMemberPage
         #导入写在方法内，可防止循环导入
-        return AddMemberPage()
+        return AddMemberPage(self.driver)
