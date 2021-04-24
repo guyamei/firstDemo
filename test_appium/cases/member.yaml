@@ -1,0 +1,7 @@
+addmember:
+    - ['test1', '15277890989']
+    - ['test2', '15277890981']
+
+delmember:
+    - 'test1'
+    - 'test2'
