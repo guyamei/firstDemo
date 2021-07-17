@@ -3,22 +3,22 @@ from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
 from selenium.common.exceptions import NoSuchElementException
 import logging
-"""
+
 root = logging.getLogger()
 print(root.handlers)
 for h in root.handlers[:]:
     root.removeHandler(h)
-"""
+
 
 
 class BasePage:
-    #logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO)
     def __init__(self, driver: WebDriver = None):
         self.driver = driver
 
     def find(self, by, value):
-        #logging.info(by)
-        #logging.info(value)
+        logging.info(by)
+        logging.info(value)
         return self.driver.find_element(by, value)
 
     def swipe_find(self, text, num = 3):
